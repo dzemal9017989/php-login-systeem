@@ -15,3 +15,9 @@
     <a href="index.php">Logout</a>
 </body>
 </html>
+
+<?php
+    include 'functions.php';
+
+    Registration();
+?>

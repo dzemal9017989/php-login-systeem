@@ -12,3 +12,11 @@
     <h3>U bent niet ingelogd. Login in om verder te gaan.</h3><br>
     <a href="login_form.php">Login</a>
 </body>
+
+<?php
+
+    include 'functions.php';
+    session_start();
+    
+    #var_dump($_SESSION);
+?>
